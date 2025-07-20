@@ -43,6 +43,17 @@ a {
   text-decoration: none;
 }
 
+/* ============================ SCROLL TO TOP BTN STYLES ============================= */
+.scroll-btn {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .4s ease-in-out;
+}
+
+.scroll-btn.visible {
+  opacity: 1;
+}
+
 /* ============================ NAVBAR GLOBAL STYLES ============================= */
 .navbar-wrapper .navbar-content {
   backdrop-filter: blur(10px);
