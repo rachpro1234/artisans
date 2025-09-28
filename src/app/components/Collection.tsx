@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import item1 from '../../../public/collection-assets/col-item-1.jpg';
-// import item2 from '../../../public/collection-assets/col-item-2.jpg';
 import { ArrowDownRightIcon, ArrowUpLeftIcon } from "@phosphor-icons/react/dist/ssr";
 function collection() {
 

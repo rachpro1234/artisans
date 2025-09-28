@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Collection from "./components/Collection";
 import Artist from "./components/Artist";
-import Library from "./components/Library";
+import ArtLibrary from "./components/Library";
 import Questions from './components/Questions'
 import ScrollToTop from "./components/ScrollToTop";
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     <Hero />
     <Collection />
     <Artist />
-    <Library />
+    <ArtLibrary />
     <Questions />
    </div>
   );

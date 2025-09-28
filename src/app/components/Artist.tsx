@@ -6,9 +6,9 @@ import artistImg from '../../../public/artist-assets/artist2.jpg'
 
 function artist() {
   return (
-    <section className="artist-section bg-[#d3d2d2]" id="artist-section">
-      <div className="artist-content text-black">
-        <div className="flex justify-between text-black capitalize mb-7">
+    <section className="artist-section" id="artist-section">
+      <div className="artist-content text-white">
+        <div className="flex justify-between text-white capitalize mb-7">
           <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, officia?</h4>
           <p className="w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat eveniet corporis recusandae, laudantium assumenda error at autem commodi aut!</p>
         </div>

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${josefinSans.variable}`}
+        className={`bg-white text-black dark:bg-gradient-bg dark:text-white ${josefinSans.variable}`}
       >
         {children}
       </body>
